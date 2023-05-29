@@ -14,14 +14,14 @@
         <Label Content="英呎" HorizontalAlignment="Left" Height="35" Margin="303,217,0,0" VerticalAlignment="Top" Width="125"/>
         <Label Content="碼" HorizontalAlignment="Left" Height="35" Margin="524,218,0,0" VerticalAlignment="Top" Width="102"/>
         <Label Content="輸入文字框" HorizontalAlignment="Left" Height="28" Margin="90,303,0,0" VerticalAlignment="Top" Width="158"/>
-        <TextBox x:Name="txtCM" HorizontalAlignment="Left" Height="27" Margin="70,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" KeyUp="txtCM_KeyUp"/>
-        <TextBox x:Name="txtM" HorizontalAlignment="Left" Height="27" Margin="303,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125"/>
-        <TextBox x:Name="txtKM" HorizontalAlignment="Left" Height="27" Margin="524,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="126"/>
-        <TextBox x:Name="txtIn" HorizontalAlignment="Left" Height="24" Margin="70,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115"/>
-        <TextBox x:Name="txtYard" HorizontalAlignment="Left" Height="24" Margin="524,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="126"/>
         <TextBox x:Name="txtInfo" HorizontalAlignment="Left" Height="46" Margin="90,336,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="536"/>
-        <TextBox x:Name="txtFt" HorizontalAlignment="Left" Height="24" Margin="304,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125"/>
-        <Button x:Name="btnAllClear" Content="清除" HorizontalAlignment="Left" Height="33" Margin="70,59,0,0" VerticalAlignment="Top" Width="115"/>
+        <Button x:Name="btnAllClear" Content="清除" HorizontalAlignment="Left" Height="33" Margin="70,59,0,0" VerticalAlignment="Top" Width="115" Click="btnAllClear_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="29" Margin="70,134,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="115"/>
+        <TextBox HorizontalAlignment="Left" Height="29" Margin="304,134,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="124"/>
+        <TextBox HorizontalAlignment="Left" Height="29" Margin="524,134,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="126"/>
+        <TextBox HorizontalAlignment="Left" Height="27" Margin="70,258,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="115"/>
+        <TextBox HorizontalAlignment="Left" Height="27" Margin="303,258,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="125"/>
+        <TextBox HorizontalAlignment="Left" Height="27" Margin="524,258,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="126"/>
 
     </Grid>
 </Window>
