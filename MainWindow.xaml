@@ -7,6 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="公分" HorizontalAlignment="Left" Height="32" Margin="70,97,0,0" VerticalAlignment="Top" Width="115"/>
+        <Label x:Name="公尺" Content="公尺" HorizontalAlignment="Left" Height="32" Margin="304,97,0,0" VerticalAlignment="Top" Width="124" RenderTransformOrigin="0.944,0.586"/>
+        <Label Content="公里" HorizontalAlignment="Left" Height="32" Margin="524,96,0,0" VerticalAlignment="Top" Width="157" RenderTransformOrigin="1.172,1.024"/>
+        <Label Content="英吋" HorizontalAlignment="Left" Height="35" Margin="70,218,0,0" VerticalAlignment="Top" Width="115"/>
+        <Label Content="英呎" HorizontalAlignment="Left" Height="35" Margin="303,217,0,0" VerticalAlignment="Top" Width="125"/>
+        <Label Content="碼" HorizontalAlignment="Left" Height="35" Margin="524,218,0,0" VerticalAlignment="Top" Width="102"/>
+        <Label Content="輸入文字框" HorizontalAlignment="Left" Height="28" Margin="90,303,0,0" VerticalAlignment="Top" Width="158"/>
+        <TextBox x:Name="txtCM" HorizontalAlignment="Left" Height="27" Margin="70,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" KeyUp="txtCM_KeyUp"/>
+        <TextBox x:Name="txtM" HorizontalAlignment="Left" Height="27" Margin="303,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125"/>
+        <TextBox x:Name="txtKM" HorizontalAlignment="Left" Height="27" Margin="524,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="126"/>
+        <TextBox x:Name="txtIn" HorizontalAlignment="Left" Height="24" Margin="70,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115"/>
+        <TextBox x:Name="txtYard" HorizontalAlignment="Left" Height="24" Margin="524,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="126"/>
+        <TextBox x:Name="txtInfo" HorizontalAlignment="Left" Height="46" Margin="90,336,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="536"/>
+        <TextBox x:Name="txtFt" HorizontalAlignment="Left" Height="24" Margin="304,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125"/>
+        <Button x:Name="btnAllClear" Content="清除" HorizontalAlignment="Left" Height="33" Margin="70,59,0,0" VerticalAlignment="Top" Width="115"/>
+
     </Grid>
 </Window>
